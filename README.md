@@ -5,7 +5,7 @@ LeetMetric is a dynamic dashboard web application that visualizes a user’s cod
 
 Screenshots
 ### 🏠 Home Page
-![Home](./images/im1.png)
+![Home](/images/im1.png)
 
 ### 📊 Stats Page
 ![Stats](./images/im2.png)
@@ -13,9 +13,7 @@ Screenshots
 
 ⚙️ Features
 🔍 Username Input for LeetCode and GFG
-
 📈 Dynamic Charts using Chart.js & Recharts
-
 🎯 Coding Stats Visualization
 
 Problems Solved
@@ -58,32 +56,24 @@ CORS Proxy (for LeetCode API access)
 
 HOW TO RUN
 1. Clone the Repo
-bash
-Copy
-Edit
 git clone https://github.com/shipfast10/Leetmetric.git
 cd Leetmetric
+
 2. Setup Server
-bash
-Copy
-Edit
 cd server
 npm install
+
 # Create a .env file and add necessary variables (if any)
 npm start
 3. Setup Client
-bash
-Copy
-Edit
 cd ../client
 npm install
 npm run dev
+
 Client will run on http://localhost:3000, server on http://localhost:5000
 
 Project Structure
-bash
-Copy
-Edit
+
 Leetmetric/
 │
 ├── client/            # Frontend - React App
